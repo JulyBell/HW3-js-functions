@@ -35,12 +35,12 @@ numRange(5);
 console.log('------------- # 6');
 
 function backRange(n){
-	for(let i = 5; i >= n; i--){
+	for(let i = n; i >= 1; i--){
 		console.log(i);
 	}
 }
 
-backRange(1);
+backRange(5);
 
 console.log('------------- # 7');
 
